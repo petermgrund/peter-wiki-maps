@@ -49,8 +49,8 @@
 .ilemi2          {display:none} /* Ilemi Triangle:   none: Kenya;  yes: South Sudan */
 
 .azadgilgit1     {display:yes } /* Azad Kashmir and Gilgit-Baltistan: none: part of a country (choose below); yes: separate */
-.azadgilgit2     {display:yes } /* Azad Kashmir and Gilgit-Baltistan: none: India; yes: Pakistan */
-.jammuladakh1    {display:yes } /* Jammu and Kashmir and Ladakh:      none: part of a country (choose below); yes: separate */
+.azadgilgit2     {display:none} /* Azad Kashmir and Gilgit-Baltistan: none: India; yes: Pakistan */
+.jammuladakh1    {display:none} /* Jammu and Kashmir and Ladakh:      none: part of a country (choose below); yes: separate */
 .jammuladakh2    {display:none} /* Jammu and Kashmir and Ladakh:      none: India; yes: Pakistan */
 .siachen1        {display:yes } /* Siachen Glacier: none: part of a country (choose below); yes: separate */
 .siachen2        {display:none} /* Siachen Glacier: none: part of India; yes: part of Pakistan */
@@ -101,9 +101,15 @@
 .uninhabited {fill:#C0C0C0; stroke:#000000; stroke-width:.5; visibility:hidden } /* territories and external regions not permanently inhabited */
 
 
-/* COLOR INDIVIDUAL JURISDICTIONS */
+/* COLOR CODES FOR INDIVIDUAL JURISDICTIONS */
 
-/* CHRISTIANITY */ .ca,.pe,.ust,.mx,.dkt,.fi,.se,.no,.gb,.ie,.im,.is,.ru,.de,.ne,.frx {fill:#027FFE}
+/* CHRISTIANITY */ .ca,.pe,.ust,.mx,.dkt,.fi,.se,.no,.gb,.ie,.im,.is,.ru,.de,.ne,.frx,.cu,.gt {fill:#027FFE}
+/* NO AFFILIATION */ .cnx,.kp,.kr {fill:#6C3CB6}
+/* ISLAM */ .af {fill:#009A00}
+/* HINDUISM */ .in {fill:#FF7F00}
+/* BUDDHISM */ .mn,.lk {fill:#EBCF16}
+/* JUDAISM */ .il {fill:#ff0000}
+
 
 
 /* SHOW CIRCLE WHOSE CATEGORY IS HIDDEN */
