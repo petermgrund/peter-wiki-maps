@@ -76,18 +76,18 @@
 .kuril1          {display:yes } /* southern Kuril islands: none: part of a country (choose below); yes: separate */
 .kuril2          {display:none} /* southern Kuril islands: none: Russia; yes: Japan */
 
-.aqnz1           {display:yes } /* Ross Dependency:                none: part of Antarctica; yes: separate */
-.aqau1           {display:yes } /* Australian Antarctic Territory: none: part of a country or territory (choose below); yes: separate */
+.aqnz1           {display:none} /* Ross Dependency:                none: part of Antarctica; yes: separate */
+.aqau1           {display:none} /* Australian Antarctic Territory: none: part of a country or territory (choose below); yes: separate */
 .aqau2           {display:none} /* Australian Antarctic Territory: none: Antarctica; yes: Australia */
-.aqfr1           {display:yes } /* Adélie Land:                   none: part of a territory (choose below); yes: separate */
+.aqfr1           {display:none} /* Adélie Land:                   none: part of a territory (choose below); yes: separate */
 .aqfr2           {display:none} /* Adélie Land:                   none: Antarctica; yes: French Southern and Antarctic Lands */
-.aqno1           {display:yes } /* Queen Maud Land:                none: part of Antarctica; yes: separate */
-.aqgb1           {display:yes } /* British Antarctic Territory:    none: part of Antarctica; yes: separate */
-.aqar1           {display:yes } /* Argentine Antarctica:           none: part of a country or territory (choose below); yes: separate */
+.aqno1           {display:none} /* Queen Maud Land:                none: part of Antarctica; yes: separate */
+.aqgb1           {display:none} /* British Antarctic Territory:    none: part of Antarctica; yes: separate */
+.aqar1           {display:none} /* Argentine Antarctica:           none: part of a country or territory (choose below); yes: separate */
 .aqar2           {display:none} /* Argentine Antarctica:           none: Antarctica; yes: Argentina */
-.aqcl1           {display:yes } /* Chilean Antarctic Territory:    none: part of a country or territory (choose below); yes: separate */
+.aqcl1           {display:none} /* Chilean Antarctic Territory:    none: part of a country or territory (choose below); yes: separate */
 .aqcl2           {display:none} /* Chilean Antarctic Territory:    none: Antarctica; yes: Chile */
-.peter1          {display:yes } /* Peter I Island:                 none: part of Antarctica; yes: separate */
+.peter1          {display:none} /* Peter I Island:                 none: part of Antarctica; yes: separate */
 
 /* CIRCLES FOR SMALL JURISDICTIONS */
 /* INSTRUCTIONS: If a circle category is hidden, circles for individual jurisdictions in that category can still be shown by setting them as visible in the section below. See the end of this file for a list of jurisdictions with circles and their categories. */
@@ -101,9 +101,16 @@
 .uninhabited {fill:#C0C0C0; stroke:#000000; stroke-width:.5; visibility:visible} /* territories and external regions not permanently inhabited */
 
 
-/* COLOR INDIVIDUAL JURISDICTIONS */
+/* INDIVIDUAL JURISDICTION COLOR CODES */
 
-/* -> EXAMPLE: .ca,.pe,.us {fill:#FF0000}*/
+/* DEL .ad {fill:#000000} DEL */ /*     Andorra                                                     */
+/* DEL .ae {fill:#000000} DEL */ /*     United Arab Emirates                                        */
+/* DEL .ag {fill:#000000} DEL */ /*     Antigua and Barbados                                        */
+/* DEL .ai {fill:#000000} DEL */ /*     Anguilla	                                                */
+/* DEL .ag {fill:#000000} DEL */ /*     Armenia		                                                */
+/* DEL .ao {fill:#000000} DEL */ /*     Angola		                                                */
+/* DEL .ao {fill:#000000} DEL */ /*     Angola		                                                */
+
 
 
 /* SHOW CIRCLE WHOSE CATEGORY IS HIDDEN */
