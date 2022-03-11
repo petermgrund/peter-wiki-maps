@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2756" height="1399">
-<title>World map with configurable borders</title>
+<title>World map template</title>
 <defs>
 <style type="text/css">
 
@@ -101,7 +101,52 @@
 .uninhabited {fill:#C0C0C0; stroke:#000000; stroke-width:.5; visibility:visible} /* territories and external regions not permanently inhabited */
 
 
+/* ----------------------------------- */
 /* INDIVIDUAL JURISDICTION COLOR CODES */
+/* ----------------------------------- */
+
+/* NORTH AMERICA */
+/* DEL .ag {fill:#000000} DEL */ /* Antigua and Barbuda */
+/* DEL .bs {fill:#000000} DEL */ /* Bahamas */
+/* DEL .bb {fill:#000000} DEL */ /* Barbados */
+/* DEL .bz {fill:#000000} DEL */ /* Belize */
+/* DEL .ca {fill:#000000} DEL */ /* Canada */
+/* DEL .cr {fill:#000000} DEL */ /* Costa Rica */
+/* DEL .cu {fill:#000000} DEL */ /* Cuba */
+/* DEL .dm {fill:#000000} DEL */ /* Dominica */
+/* DEL .do {fill:#000000} DEL */ /* Dominican Republic */
+/* DEL .sv {fill:#000000} DEL */ /* El Salvador */
+/* DEL .gd {fill:#000000} DEL */ /* Grenada */
+/* DEL .gt {fill:#000000} DEL */ /* Guatemala */
+/* DEL .ht {fill:#000000} DEL */ /* Haiti */
+/* DEL .hn {fill:#000000} DEL */ /* Honduras */
+/* DEL .jm {fill:#000000} DEL */ /* Jamaica */
+/* DEL .mx {fill:#000000} DEL */ /* Mexico */
+/* DEL .ni {fill:#000000} DEL */ /* Nicaragua */
+/* DEL .pa {fill:#000000} DEL */ /* Panama */
+/* DEL .kn {fill:#000000} DEL */ /* Saint Kitts and Nevis */
+/* DEL .lc {fill:#000000} DEL */ /* Saint Lucia */
+/* DEL .vc {fill:#000000} DEL */ /* Saint Vincent and the Grenadines */
+/* DEL .tt {fill:#000000} DEL */ /* Trinidad and Tobago */
+/* DEL .us {fill:#ff0000} DEL */ /* United States */
+
+
+/* SOUTH AMERICA */
+/* DEL .ar {fill:#000000} DEL */ /* Argentina */
+/* DEL .bo {fill:#000000} DEL */ /* Bolivia */
+
+
+
+/* EUROPE */
+
+/* AFRICA */
+
+/* ASIA */
+
+/* OCEANIA */
+
+
+
 
 /* DEL .ad {fill:#000000} DEL */ /*     Andorra                                                     */
 /* DEL .ae {fill:#000000} DEL */ /*     United Arab Emirates                                        */
