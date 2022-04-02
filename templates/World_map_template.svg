@@ -146,18 +146,6 @@
 /* OCEANIA */
 
 
-
-
-/* DEL .ad {fill:#000000} DEL */ /*     Andorra                                                     */
-/* DEL .ae {fill:#000000} DEL */ /*     United Arab Emirates                                        */
-/* DEL .ag {fill:#000000} DEL */ /*     Antigua and Barbados                                        */
-/* DEL .ai {fill:#000000} DEL */ /*     Anguilla	                                                */
-/* DEL .ag {fill:#000000} DEL */ /*     Armenia		                                                */
-/* DEL .ao {fill:#000000} DEL */ /*     Angola		                                                */
-/* DEL .ao {fill:#000000} DEL */ /*     Angola		                                                */
-
-
-
 /* SHOW CIRCLE WHOSE CATEGORY IS HIDDEN */
 
 /* -> EXAMPLE: .sg {visibility:visible} */
