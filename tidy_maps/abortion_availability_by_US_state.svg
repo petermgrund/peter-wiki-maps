@@ -9,8 +9,9 @@
 .separator1 {stroke:#B0B0B0; stroke-width:2} /* color and width of lines around Alaska and Hawaii */
 
 .tx {fill:#FF004E} /* Legal until fetal cardiac activity is detected (~6 weeks post-fertilization) */
+.ky {fill:#cc0066} /* Legal up to 15 weeks post-fertilization */
 .ms {fill:#FD03AA} /* Legal up to 20 weeks post-fertilization */
-.ar,.sd,.nd,.ne,.ks,.ok,.ak,.la,.al,.ga,.sc,.wv,.ky,.oh,.in,.wi,.ia {fill:#FD8601} /* Legal up to 22 weeks post-fertilization */
+.ar,.sd,.nd,.ne,.ks,.ok,.ak,.la,.al,.ga,.sc,.wv,.oh,.in,.wi,.ia {fill:#FD8601} /* Legal up to 22 weeks post-fertilization */
 .fl,.nv,.pa,.ma {fill:#ECC815} /* Legal up to 24 weeks post-fertilization */
 .va {fill:#35D1C0} /* Legal up to 25 weeks post-fertilization */
 .mi,.wa,.ca,.ut,.id,.wy,.mt,.mn,.az,.mo,.il,.tn,.nc,.md,.de,.ny,.ct,.ri,.me,.hi {fill:#3D76DA} /* Legal up to fetal viability */
