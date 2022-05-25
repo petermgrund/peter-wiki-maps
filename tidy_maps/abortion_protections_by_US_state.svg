@@ -8,9 +8,9 @@
 .dccircle {display:yes}                      /* set display to yes to show the circle for the District of Columbia, or none to hide it */
 .separator1 {stroke:#B0B0B0; stroke-width:2} /* color and width of lines around Alaska and Hawaii */
 
- {fill:#FF004E} /* Abortion access protected via state statute */
-.ak {fill:#cc0066} /* Abortion access protected via ruling of state's Supreme Court */
-.ms {fill:#FD03AA} /* Abortion access protected via BOTH state statute and ruling of state's Supreme Court  */
+.co,.nv,.ri,.ca,.ct,.de,.hi,.md,.nj,.ny,.or,.vt,.wa {fill:#00B22F} /* Abortion access protected via state statute */
+.ak,.mn,.ks {fill:#0057FF} /* Abortion access protected via ruling of state's Supreme Court */
+.ma {fill:#008597} /* Abortion access protected via BOTH state statute and ruling of state's Supreme Court  */
 
 
 </style>
