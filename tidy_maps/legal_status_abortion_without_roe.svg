@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="959" height="593">
-  <title>Abortion availability in the US by fetal gestational age</title>
+  <title>Legal status of abortion without Roe</title>
 <defs>
 <style type="text/css">
 .state {fill:#D0D0D0}                        /* default color for all states not specified below */
@@ -8,15 +8,16 @@
 .dccircle {display:yes}                      /* set display to yes to show the circle for the District of Columbia, or none to hide it */
 .separator1 {stroke:#B0B0B0; stroke-width:2} /* color and width of lines around Alaska and Hawaii */
 
-.tx,.ok {fill:#FF004E} /* Legal until fetal cardiac activity is detected (~6 weeks post-fertilization) */
- {fill:#cc0066} /* Legal up to 15 weeks post-fertilization */
-.ms {fill:#FD03AA} /* Legal up to 20 weeks post-fertilization */
-.ar,.sd,.nd,.ne,.ks,.ak,.la,.al,.ga,.sc,.wv,.oh,.in,.wi,.ia,.ky {fill:#FD8601} /* Legal up to 22 weeks post-fertilization */
-.fl,.pa,.ma,.fl,.nh {fill:#ECC815} /* Legal up to 24 weeks post-fertilization */
-.va {fill:#35D1C0} /* Legal up to 25 weeks post-fertilization */
-.mi,.wa,.ca,.ut,.id,.wy,.mt,.mn,.az,.mo,.il,.tn,.nc,.de,.ny,.ct,.ri,.me,.hi,.nv {fill:#3D76DA} /* Legal up to fetal viability */
-.ak,.or,.nm,.co,.nj,.vt,.dc,.md {fill:#55008F} /* No restrictions based on fetal gestational age */
 
+.id,.nd,.sd,.wy,.ut,.tx,.ok,.mo,.ar,.la,.ms,.al,.tn,.ky,.wv {fill:#BC7965} /* Total ban */
+.az,.ga,.oh,.sc,.fl {fill:#D2A88C} /* Gestational limit */
+
+
+.mt,.ne,.ks,.ia,.wi,.mi,.in,.pa,.va,.nc {fill:#EADCCD} /* Dependent on new law or change in party control */
+
+
+.mn,.nv,.co,.il,.me,.nh,.ma,.ri,.nm,.ak {fill:#BACFC7} /* Protected */
+.ca,.or,.wa,.ny,.md,.de,.nj,.vt,.ct,.hi {fill:#7A9E94} /* Expanded access */
 
 
 </style>
