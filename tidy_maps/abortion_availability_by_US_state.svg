@@ -8,7 +8,8 @@
 .dccircle {display:yes}                      /* set display to yes to show the circle for the District of Columbia, or none to hide it */
 .separator1 {stroke:#B0B0B0; stroke-width:2} /* color and width of lines around Alaska and Hawaii */
 
-.tx,.ok {fill:#FF004E} /* Legal until fetal cardiac activity is detected (~6 weeks post-fertilization) */
+.ok {fill:#000000} /* Illegal */
+.tx {fill:#FF004E} /* Legal until fetal cardiac activity is detected (~6 weeks post-fertilization) */
  {fill:#cc0066} /* Legal up to 15 weeks post-fertilization */
 .ms {fill:#FD03AA} /* Legal up to 20 weeks post-fertilization */
 .ar,.sd,.nd,.ne,.ks,.ak,.la,.al,.ga,.sc,.wv,.oh,.in,.wi,.ia,.ky {fill:#FD8601} /* Legal up to 22 weeks post-fertilization */
